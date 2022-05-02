@@ -36,7 +36,7 @@ function generatePassword(PassLength, Upper, Lower, Number, Symbol) {
     )
 
     if (typeCount == 0) {
-        return '';
+        return 'select somthing bro'
     }
 
     for (let i = 0; i < PassLength; i += typeCount) {
